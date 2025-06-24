@@ -1,12 +1,34 @@
-
+# === Core Backend ===
 flask
 flask-socketio
 eventlet
+
+# === Video Processing & Computer Vision ===
+opencv-python
+Pillow
+pygame
+
+# === Deep Learning & Models ===
 torch
+torchvision
 transformers
 ultralytics
-opencv-python
-pygame
+
+# === File & Document Handling ===
 python-docx
-Pillow
+uuid
+base64
+
+# === Utilities ===
 requests
+numpy
+
+# === Optional (Advanced features) ===
+scipy               # for scientific computation
+matplotlib          # for visualization (if needed)
+tqdm                # progress bars
+imageio             # for working with animated image formats (if video frames used)
+
+# === Environment and Deployment ===
+python-dotenv       # for managing environment variables
+gunicorn            # for deployment on cloud (optional)
